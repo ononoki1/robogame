@@ -1,0 +1,8 @@
+#ifndef __KEY_H
+#define __KEY_H
+
+void keyInit(void);   //°´¼ü¶Ë¿Ú³õÊ¼»¯
+int key1Status(void); // KEY1×´Ì¬
+int key2Status(void); // KEY2×´Ì¬
+
+#endif

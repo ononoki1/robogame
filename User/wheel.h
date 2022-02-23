@@ -1,0 +1,40 @@
+#ifndef __WHEEL_H
+#define __WHEEL_H
+#include "stm32f10x.h"
+
+void cw1(void);
+void ccw1(void);
+void cw1Stop(void);
+void ccw1Stop(void);
+void stop1(void);
+void vacant1(void);
+void cw2(void);
+void ccw2(void);
+void cw2Stop(void);
+void ccw2Stop(void);
+void stop2(void);
+void vacant2(void);
+void cw3(void);
+void ccw3(void);
+void cw3Stop(void);
+void ccw3Stop(void);
+void stop3(void);
+void vacant3(void);
+void cw4(void);
+void ccw4(void);
+void cw4Stop(void);
+void ccw4Stop(void);
+void stop4(void);
+void vacant4(void);
+void go(void);
+void back(void);
+void left(void);
+void right(void);
+void cw(void);
+void ccw(void);
+void wheelInit(void);
+void wheelGpioInit(void);
+void tim6IrqInit(void);
+void tim6Init(void);
+
+#endif
